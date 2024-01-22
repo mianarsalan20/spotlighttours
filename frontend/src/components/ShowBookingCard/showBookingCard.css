@@ -1,0 +1,33 @@
+.show-booking__card {
+  border-radius: 0.5rem;
+  border-bottom: 1px solid rgb(229, 231, 235);
+  padding: 1rem;
+}
+.show-booking__info h2 {
+  font-size: 1.6rem;
+}
+
+.show-booking__info h3 {
+  font-size: 1.2rem;
+}
+
+.show-booking__info div {
+  display: flex;
+}
+.show-booking__info .show-booking_btn {
+  padding: 0;
+  text-align: center;
+  width: 7rem;
+  height: 2rem;
+  border: none !important;
+  border-radius: 2rem;
+}
+.show-booking__info .pending {
+  background-color: var(--primary-color);
+}
+.show-booking__info .done {
+  background-color: green;
+}
+.show-booking__info .cancelled {
+  background-color: red;
+}

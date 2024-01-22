@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+:root {
+  --primary-color: #ffcc00;
+  --secondary-color: #f2c40c;
+  --heading-color: #0b2727;
+  --text-color: #6e7074;
+  --font-name: "Montserrat", sans-serif;
+  --font-name1: "Gloock", serif;
+  --font-name2: "Libre Baskerville", serif;
+  --subtitle-font-name: "Island Moments", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-name2);
+}
+
+section {
+  padding: 50px 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(-- heading-color);
+}
+h1 {
+  font-family: var(--font-name1);
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+/*ul {
+  list-style: none;
+}*/
+.primary_btn {
+  background: var(--primary-color) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 0.4rem 1.5rem !important;
+}
+.primary_btn a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+}
+.primary_btn a:hover {
+  color: inherit;
+}
+.secondary_btn {
+  background: transparent !important;
+  color: #0b2727 !important;
+  border: none !important;
+  font-weight: 500 !important;
+}
+.secondary_btn a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--heading-color);
+}
+.secondary_btn a:hover {
+  color: inherit;
+}
+.Section_subtitle {
+  background: var(--secondary-color);
+  font-family: var(--subtitle-font-name);
+  width: max-content;
+  padding: 0px 0.5rem;
+  padding-right: 1em;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: var(--heading-color);
+}
+
+@media only screen and (max-width: 992px) {
+  .primary_btn a,
+  .secondary_btn a {
+    font-size: 0.9rem;
+  }
+  .primary_btn,
+  .secondary_btn,
+  .btn-dark {
+    padding: 0.2rem 1.1rem !important;
+  }
+}
